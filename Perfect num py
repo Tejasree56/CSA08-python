@@ -1,0 +1,9 @@
+input_number = int(input("Enter number to be checked: "))
+sum_variable = 0
+for i in range(1, input_number):
+    if input_number % i == 0:
+        sum_variable = sum_variable + i
+if sum_variable == input_number:
+    print(f"The number {input_number} is perfect number")
+else:
+    print(f"The number {input_number} is not a perfect number")
